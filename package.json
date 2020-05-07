@@ -1,0 +1,27 @@
+{
+  "name": "@whitespace/storybook-theme",
+  "version": "1.0.0",
+  "description": "A theme for Storybook. Storybook is an open source tool for developing UI components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitespace-se/storybook-theme.git"
+  },
+  "keywords": [
+    "Storybook",
+    "Theme",
+    "Theming"
+  ],
+  "author": "Whitespace AB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whitespace-se/storybook-theme/issues"
+  },
+  "homepage": "https://github.com/whitespace-se/storybook-theme#readme",
+  "devDependencies": {
+    "@storybook/html": "^5.3.18"
+  }
+}
