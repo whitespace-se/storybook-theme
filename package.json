@@ -4,6 +4,7 @@
   "description": "A theme for Storybook. Storybook is an open source tool for developing UI components.",
   "main": "index.js",
   "scripts": {
+    "storybook": "start-storybook",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,8 @@
   },
   "homepage": "https://github.com/whitespace-se/storybook-theme#readme",
   "devDependencies": {
-    "@storybook/html": "^5.3.18"
+    "@babel/core": "^7.9.6",
+    "@storybook/html": "^5.3.18",
+    "babel-loader": "^8.1.0"
   }
 }
