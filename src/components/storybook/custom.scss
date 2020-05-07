@@ -1,0 +1,29 @@
+.customSidebar {
+  height: calc(100% - 40px);
+  left: 20px;
+  top: 20px;
+  width: 210px;
+}
+
+.customPreviewWrapper {
+  left: 20px;
+  top: 20px;
+
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+}
+
+.custom {
+  .customSidebar {
+    height: calc(100% - 40px);
+    left: 20px;
+    top: 20px;
+    width: 210px;
+  }
+
+  .customPreviewWrapper {
+    left: 230px;
+
+    width: calc(100% - 40px - 210px);
+  }
+}
