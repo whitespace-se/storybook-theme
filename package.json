@@ -2,33 +2,30 @@
   "name": "@whitespace/storybook-theme",
   "version": "1.0.0",
   "description": "A theme for Storybook. Storybook is an open source tool for developing UI components.",
-  "main": "index.js",
-  "scripts": {
-    "storybook": "start-storybook",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/whitespace-se/storybook-theme.git"
-  },
   "keywords": [
     "Storybook",
     "Theme",
     "Theming"
   ],
-  "author": "Whitespace AB",
-  "license": "MIT",
+  "homepage": "https://github.com/whitespace-se/storybook-theme#readme",
   "bugs": {
     "url": "https://github.com/whitespace-se/storybook-theme/issues"
   },
-  "homepage": "https://github.com/whitespace-se/storybook-theme#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitespace-se/storybook-theme.git"
+  },
+  "license": "MIT",
+  "author": "Whitespace AB",
+  "scripts": {
+    "storybook": "start-storybook",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@storybook/html": "^5.3.18",
-    "babel-loader": "^8.1.0"
-  },
-  "dependencies": {
     "@storybook/preset-scss": "^1.0.2",
+    "babel-loader": "^8.1.0",
     "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2"
   }
