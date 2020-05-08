@@ -11,15 +11,15 @@
   for = "/*"
   [headers.values]
     # HTTP Strict Transport Security (HSTS)
-    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload" 
+    # Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload" 
 
-    # Referrer Policy
-    Referrer-Policy = "no-referrer"
+    # # Referrer Policy
+    # Referrer-Policy = "no-referrer"
 
-    # HTTP-headers
-    X-Content-Type-Options = "nosniff"
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
+    # # HTTP-headers
+    # X-Content-Type-Options = "nosniff"
+    # X-Frame-Options = "DENY"
+    # X-XSS-Protection = "1; mode=block"
     
     # CSP Policy
     # Report only
