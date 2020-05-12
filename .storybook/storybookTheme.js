@@ -4,6 +4,7 @@ import logo from "./public/logo.svg";
 export default create({
   base: "light",
 
+  // Colors
   colorPrimary: "#ff5001",
   colorSecondary: "#215da5",
 
@@ -32,6 +33,7 @@ export default create({
   inputTextColor: "black",
   inputBorderRadius: 0,
 
+  // Brand
   brandTitle: "Whitespace",
   brandUrl: "https://www.whitespace.se",
   brandImage: `/${logo}`,
