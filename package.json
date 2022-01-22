@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/whitespace-se/storybook-theme.git"
   },
-  "license": "MIT",
+  "license": "AGPL",
   "author": "Whitespace AB",
   "scripts": {
     "start:storybook": "start-storybook -p 6006 -s ./.storybook/public",
